@@ -1,0 +1,81 @@
+Session 3 - Assignment 2
+
+1. Which is not a property of hfds-site.xml file?
+	a. Block size
+	b. Replication factor
+	c. Secondary NameNode port address
+	d. Application server
+	
+	Answer: d. Application server
+	
+2. What are the properties that we can edit in hfds-site.xml file?
+	a. Block size
+	b. Replication factor
+	c. Block reporting interval
+	d. All the above
+	
+	Answer: d. All the above
+	
+3. Underlying storage layers where MapReduce programs are written:
+	a. Abstracted
+	b. Open to all
+	c. Locked
+	d. None of these
+	
+	Answer: a. Abstracted
+	
+4. Which is not a valid method in FSDATA Output Stream?
+	a. close()
+	b. open()
+	c. getpos()
+	d. sync()
+	
+	Answer: c. getpos()
+	
+5. How many blocks of size 128MB will be allocated for a file of size 524288KB?
+	a. 2
+	b. 3
+	c. 4
+	d. 5
+	
+	Answer: a. 2
+	
+6. MapReduce job client calculates the input split by:
+	a. Figuring the first and last whole records in the block
+	b. Figuring only the first block
+	c. Figuring only the last block
+	d. None of these
+	
+	Answer: a. Figuring the first and last whole records in the block
+	
+7. Mappers are directly related to:
+	a. Input data
+	b. Input splits
+	c. Output data
+	d. Output splits
+	
+	Answer: b. Input splits
+	
+8. After data is written in an HFDS file, HFDS does not provide any guarantee that data are visible to a new reader until the file is ____
+	a. closed
+	b. opened
+	c. writing
+	d. reading
+	
+	Answer: a. closed
+	
+9. What mechanism does Hadoop use to make NameNode resilient to failure?
+	a. Take backup of filesystem metadata to a local disk and remove NFS mount
+	b. Store the filesystem metadata in cloud
+	c. Use a machine with atleast 12 CPUs
+	d. Use expensive and reliable hardware
+	
+	Answer: d. Use expensive and reliable hardware
+	
+10. All the files in a directory in HFDS can be merged together using:
+	a. getmerge
+	b. putmerge
+	c. remerge
+	d. mergeall
+	
+	Answer: a. getmerge
